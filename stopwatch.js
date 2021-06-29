@@ -32,6 +32,8 @@ function changer() {
         resetter.style.visibility = "hidden";
         power.style.justifyContent = "center";
         power.style.backgroundColor = "maroon";
+        resetter.style.marginLeft = "-134px";
+        resetter.style.marginRight = "0px";
 
     }
 
