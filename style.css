@@ -9,24 +9,38 @@ body {
     text-align: center;
 }
 #timer{
+    display: flex;
+    justify-content: center;
     text-align: center;
     transform: translateY(25vh);
-    font-size: 8em;
+    font-size: 3.5em;
 
+
+}
+
+.ui{
+    display: flex;
+    justify-content: center;
 }
 
 
 
 .clicker {
-    transform: translateY(30vh);
-    font-size: 1.5em;
+    justify-content: center;
+    transform: translateY(50vh);
+    font-size: 1em;
     border-radius: 15px;
     padding: 5px 25px 5px 25px;
+    background-color: mediumpurple;
+    border: 1px;
 }
 .reset {
-    transform: translateY(35vh);
-    font-size: 1.5em;
+    transform: translateY(50vh);
+    font-size: 1em;
     border-radius: 15px;
     padding: 5px 25px 5px 25px;
     visibility: hidden;
+    margin-left: -134px;
+    background-color: gray;
+    border: 1px;
 }
